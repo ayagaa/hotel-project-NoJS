@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777;
+  /* background: #4CAF50; */
+}
+
+.super_container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 500px 700px 200px;
+    grid-template-areas:
+      "hero-pic"
+      "services-container"
+      "footer";
+}
+
+.footer img {
+    height: 45px;
+    width: 45px;
+    padding: 10px;
+  }
+
+  .hero-pic{
+      grid-area: hero-pic;
+  }
+
+  .services-container{
+      grid-area: services-container;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-top: 60px;
+      padding-left: 10px;
+      padding-right: 10px;
+      overflow-y: scroll;
+  }
+
+  .service{
+      margin-right: 20px;
+      max-width: 500px;
+      min-width: 500px;
+      height: 500px;
+      padding: 15px;
+  }
+
+  .service-desc{
+      min-height: 200px;
+      max-height: 200px;
+  }
+
+  .service-desc h2{
+      font-size: 20px;
+      margin-bottom: 15px;
+  }
+
+  .service-desc p{
+      font-size: 14px;
+  }
+
+  .booking_item{
+      width: 100%;
+  }
+  
+  .footer{
+      grid-area: footer;
+  }
+
+  
+
+  @media only screen and (min-width: 100px) {
+    .super_container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 400px 600px 100px;
+        grid-template-areas:
+          "hero-pic"
+          "services-container"
+          "footer";
+    }
+
+    .hero-pic{
+        grid-area: hero-pic;
+    }
+  
+    .services-container{
+        grid-area: services-container;
+    }
+  
+    .footer{
+        grid-area: footer;
+    }
+  
+  }
+
+  @media only screen and (max-width: 600px) {
+    .super_container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 500px 600px 100px;
+        grid-template-areas:
+          "hero-pic"
+          "services-container"
+          "footer";
+    }
+    .hero-pic{
+        grid-area: hero-pic;
+    }
+  
+    .services-container{
+        grid-area: services-container;
+    }
+  
+    .footer{
+        grid-area: footer;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .super_container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 500px 600px 100px;
+        grid-template-areas:
+          "hero-pic"
+          "services-container"
+          "footer";
+    }
+    .hero-pic{
+        grid-area: hero-pic;
+    }
+  
+    .services-container{
+        grid-area: services-container;
+    }
+  
+    .footer{
+        grid-area: footer;
+    }
+  }
+
+  @media only screen and (max-width: 827px) {
+    .super_container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 500px 600px 100px;
+        grid-template-areas:
+          "hero-pic"
+          "services-container"
+          "footer";
+    }
+    .hero-pic{
+        grid-area: hero-pic;
+    }
+  
+    .services-container{
+        grid-area: services-container;
+    }
+  
+    .footer{
+        grid-area: footer;
+    }
+  
+  }
+
+
+  @media only screen and (min-width: 1200px) {
+    .super_container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 500px 600px 100px;
+        grid-template-areas:
+          "hero-pic"
+          "services-container"
+          "footer";
+    }
+    .hero-pic{
+        grid-area: hero-pic;
+    }
+  
+    .services-container{
+        grid-area: services-container;
+        margin-top: -50px;
+    }
+  
+    .footer{
+        grid-area: footer;
+    }
+  }

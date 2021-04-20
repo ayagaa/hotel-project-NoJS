@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+
+    <title>Hotel</title>
+  </head>
+  <body>
+    <div class="super_container">
+      
+      <header class="header">
+        <div class="header-logo">
+          <a href="">Salto del Guaira</a>
+        </div>
+        <div class="nav-bar">
+          <label for="toggle-1" class="toggle-menu">
+            <ul class="ham-menu">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </label>
+        <input type="checkbox" id="toggle-1"> 
+        <nav>
+          <ul class="nav">
+            <li><a href="~/index.html">Home</a></li>
+            <li><a href="~/services.html">Services</a></li>
+            <li><a href="~/about-us.html">About</a></li>
+            <li><a href="~/contact-us.html">Contact Us</a></li>
+          </ul>
+        </nav>
+  
+        </div>
+
+      </header>
+      <div class="home">
+        <div class="home-caption">
+         <h2> Karibu Salto del Guaira</h2>
+         <h5>Find Magic in Africa</h5>
+        <a href="#booking">  <button> Explore</button></a>
+        </div>
+        <div class="carousel">
+            <ul class="slides">
+              <input type="radio" name="radio-buttons" id="img-1" checked />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="/assets/night-sight-1.jpeg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-3" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-2" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons" id="img-2" />
+              <li class="slide-container">
+                <div class="slide-image">
+                    <img src="/assets/Breakfast-1.jpeg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-1" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-3" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons" id="img-3" />
+              <li class="slide-container">
+                <div class="slide-image">
+                    <img src="/assets/Sunset-1.jpeg">
+                </div>
+                <div class="carousel-controls">
+                  <label for="img-2" class="prev-slide">
+                    <span>&lsaquo;</span>
+                  </label>
+                  <label for="img-1" class="next-slide">
+                    <span>&rsaquo;</span>
+                  </label>
+                </div>
+              </li>
+              <div class="carousel-dots">
+                <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+              </div>
+            </ul>
+          </div>
+
+          <div class="noTech">
+            <h1>No Distractions Allowed!</h1>
+            <div class="card-container">
+              <div class="card">  <img src="./assets/Work-Offline.png" alt=""> <span>
+                <h2>No Internet</h2>
+              </span></div>
+               <div class="card"> <img src="./assets/No-calls.png" alt=""><span>
+                <h2>No Telephone</h2>
+              </span>
+              </div>
+                <div class="card"><img src="./assets/No-computer.png" alt=""><span>
+                  <h2>No Computers</h2>
+                </span>
+                </div>
+            </div>
+          </div>
+ 
+ 
+ 
+        </div>
+        <div id='booking' class="booking-container">
+          <div class="booking">
+            <div class="booking_item">
+              <div
+                class="background_image"
+                style="background-image: url(/assets/Chef-1.jpeg)"
+              >
+              </div>
+              <div class="booking_overlay">
+                <div class="text">
+                  <a href="#">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="booking_item">
+              <div
+                class="background_image"
+                style="background-image: url(./assets/Breakfast-2.jpeg)"
+              >
+  
+              </div>
+              <div class="booking_overlay">
+                <div class="text">
+                  <a href="#">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="booking_item">
+              <div
+                class="background_image"
+                style="background-image: url(./assets/Tent-1.jpeg)"
+              >
+              </div>
+              <div class="booking_overlay">
+                <div class="text">
+                  <a href="#">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="booking_item">
+              <div
+                class="background_image"
+                style="background-image: url(./assets/Bedroom-1.jpeg)"
+              >
+              </div>
+              <div class="booking_overlay">
+                <div class="text">
+                  <a href="#">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="booking_item">
+              <div
+                class="background_image"
+                style="background-image: url(./assets/night-sight-1.jpeg)"
+              >
+              </div>
+              <div class="booking_overlay">
+                <div class="text">
+                  <a href="#">Book Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="booking_item">
+              <div
+                class="background_image"
+                style="background-image: url(./assets/Tent-2.jpeg)"
+              >
+              </div>
+              <div class="booking_overlay">
+                <div class="text">
+                  <a href="#">Book Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <footer class="footer">
+          <img src="./assets/Facebook.png" alt="">
+          <img src="./assets//Instagram.png" alt="">
+          <img src="./assets/Twitter-Bird.png" alt="">
+
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
